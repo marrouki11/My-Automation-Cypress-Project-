@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "login page",
+    "line": 14,
+    "id": "login-page",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-page;authentification-utilisateur",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "authentification utilisateur",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "je me connecte sur 'https://automationexercise.com/login'",
+            "result": {
+              "status": "passed",
+              "duration": 5700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "je verifie que la page est visible",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "je saisie email 'marroukisalah2@gmail.com'",
+            "result": {
+              "status": "passed",
+              "duration": 1356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "je saisie password 'Cypress12345'",
+            "result": {
+              "status": "passed",
+              "duration": 560000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "je clique sur le bouton 'Login'",
+            "result": {
+              "status": "passed",
+              "duration": 13195000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
